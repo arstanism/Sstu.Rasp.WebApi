@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sstu.Rasp.BLL.Contracts\Sstu.Rasp.BLL.Contracts.csproj" />
+    <ProjectReference Include="..\Sstu.Rasp.DAL.Contracts\Sstu.Rasp.DAL.Contracts.csproj" />
+    <ProjectReference Include="..\Sstu.Rasp.Entities\Sstu.Rasp.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
